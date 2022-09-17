@@ -1,0 +1,10 @@
+Run the program in command prompt.
+
+cd "to the directory of the program"*
+
+npm init -y
+
+npm install --save-dev electron
+
+npm start
+

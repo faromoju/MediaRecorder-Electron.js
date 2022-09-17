@@ -1,0 +1,104 @@
+#title {
+  text-align: center;
+  position: relative;
+}
+
+body {
+  background-color: burlywood;
+  color: rgb(46, 46, 46);
+}
+
+#audio {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+button {
+  margin: 0 6px 20px 0;
+  /*padding-left: 5px;
+  padding-right: 5px;*/
+  width: 150px;
+  background-color: black;
+  color: burlywood;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#audio button {
+  margin: 0 6px 20px 0;
+  /*padding-left: 5px;
+  padding-right: 5px;*/
+  width: 150px;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button#start {
+  position: absolute;
+  top: 60%;
+  right: 80%;
+}
+
+button#record {
+  position: absolute;
+  top: 60%;
+  right: 60%;
+}
+
+button#play {
+  position: absolute;
+  top: 60%;
+  right: 40%;
+}
+
+button#download {
+  position: absolute;
+  top: 60%;
+  right: 20%;
+}
+
+#echo {
+  position: absolute;
+  top: 70%;
+  right: 40%;
+  color: black;
+}
+
+#echo p {
+  text-align: center;
+}
+
+button:last-of-type {
+  margin: 0;
+}
+
+p.borderBelow {
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+}
+
+video {
+  vertical-align: top;
+  --width: 40vw;
+  width: var(--width);
+  height: calc(var(--width) * 0.5625);
+}
+
+video:last-of-type {
+  margin: 0 0 20px 0;
+}
+
+video#gumVideo {
+  margin: 0 20px 20px 0;
+}
